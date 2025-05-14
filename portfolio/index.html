@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shravani Emmewar's Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f2e6ff;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #fff;
+            padding: 1em;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .navbar h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            color: #333;
+            margin: 0;
+        }
+        .main-navbar {
+            background-color: #64625e;
+            font-size: 1em;
+            padding: 1em 0;
+        }
+        .main-navbar ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        .main-navbar li {
+            display: inline;
+            margin: 0 1em;
+        }
+        .main-navbar a {
+            text-decoration: none;
+            color:white;
+            font-weight: 700;
+        }
+        .resume-container {
+            padding: 2em;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        .header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5em;
+            color: brown;
+        }
+        .header p {
+            font-size: 1em;
+        }
+        section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5em;
+            color: brown;
+            border-bottom: 2px solid burlywood;
+            padding-bottom: 0.5em;
+        }
+        section p, section ul, section li {
+            font-size: 1em;
+            margin: 0.5em 0;
+        }
+        section ul {
+            padding-left: 1.5em;
+        }
+        .skills-container, .education-item {
+            display: flex;
+            justify-content: space-around;
+        }
+        .skills-container > div, .education-item > div {
+            flex: 1;
+            margin: 0.5em;
+        }
+        .contact-form-container {
+            margin-top: 2em;
+        }
+        .contact-form-container h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5em;
+            color: pink;
+            border-bottom: 2px solid pink;
+            padding-bottom: 0.5em;
+        }
+        .contact-form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-group {
+            margin: 1em 0;
+        }
+        .form-group label {
+            font-weight: 700;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: black;
+            color: white;
+            padding: 0.75em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 700;
+        }
+        button:hover {
+            background-color:pink;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>SHRAVANI EMMEWAR</h1>
+    </nav>
+    <div class="main-navbar">
+        <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#details">Details</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+        </ul>
+    </div>
+    <div class="resume-container">
+        <header class="header">
+            <div class="header-text">
+                <h2>About me</h2>
+                <p>I'm a student who's currently pursuing Btech 2nd year in the stream Computer Science and Engineering with the Specialization of AI and ML.</p>
+                <p>Desire to secure a great position in the Software industry as an Engineer.</p>
+            </div>
+        </header>
+
+        <section class="details" id="details">
+            <h2>Details</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/shravaniemmewar" target="_blank">LinkedIn</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/shravaniemmewar" target="_blank">Instagram</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/shravaniemmewar" target="_blank">Facebook</a></p>
+            <p>Email: <a href="mailto:shravani@gmail.com">shravani@gmail.com</a></p>
+            <p>Address: Hyderabad, India</p>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="hard-skills">
+                    <h3>Hard Skills</h3>
+                    <ul>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>Web Development</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="soft-skills">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Time management</li>
+                        <li>Creativity</li>
+                        <li>Willingness to learn</li>
+                        <li>Open-mindedness</li>
+                        <li>Teamwork</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="activities" id="activities">
+            <h2>Co-Curricular Activities</h2>
+            <ul>
+                <li>Participated in Hackathons</li>
+                <li>Participated in Tedx Talks</li>
+                <li>Attended many Workshops on Web Development and Artificial Intelligence</li>
+                <li>Attended webinars related to Machine Learning</li>
+            </ul>
+        </section>
+
+        <section class="education" id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <ul>
+                    <li><h3><b>Schooling:</b></h3> Scholars High School, Nizamabad (2020), GPA: 10.0</li>            
+                    <li><h3><b>Intermediate:</b></h3> Kakatiya Junior College, Nizamabad (2020-2022), Percentage: 82%</li>                
+                    <li><h3><b>Btech:</b></h3> Institute Of Aeronautical Engineering, Hyderabad (2022-2026), CGPA: 8.3</li>             
+                </ul>
+            </div>
+        </section>
+
+        <section class="certifications" id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Python Essentials <a href="Python Essentials.pdf" target="_blank">Click to view</a></li>
+                <li>Java (Basic) Hacker Rank <a href="java_basic certificate.pdf" target="_blank">Click to view</a></li>
+                <li>Data Science with Python <a href="shrav internship.jpg" target="_blank">Click to view</a></li>
+            </ul>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-form-container">
+                <form id="contact-form" method="post" action="#">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit"> Send Message </button>
